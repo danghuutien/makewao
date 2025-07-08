@@ -1,6 +1,6 @@
 import AppLayout from "@/layouts/AppLayout"
-import BannerFirst from '@/assets/images/banner_01.jpg'
-import { AiFillCodeSandboxCircle } from "react-icons/ai"
+import BannerFirst from '@/assets/images/test.jpg'
+import { AiFillBell, AiFillCodeSandboxCircle } from "react-icons/ai"
 import { useEffect } from "react"
 const Home: React.FC = () => {
     useEffect(()=>{
@@ -14,8 +14,8 @@ const Home: React.FC = () => {
                         <div className="absolute left-0 flex items-center bg-[#003699] top-0 bottom-0 px-3.5 text-2xl text-white z-1 rounded-l-md">
                             <AiFillCodeSandboxCircle />
                         </div>
-                        <div className="absolute right-0 flex items-center bg-[#003699] top-0 bottom-0 px-5 text-2xl text-white z-1 rounded-r-md">
-                            
+                        <div className="absolute right-0 flex items-center bg-[#003699] top-0 bottom-0 px-3 text-2xl text-white z-1 rounded-r-md">
+                            <AiFillBell />
                         </div>
                         <div className="marquee-container">
                             <div className="marquee-content">
