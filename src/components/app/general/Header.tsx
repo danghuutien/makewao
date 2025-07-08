@@ -37,7 +37,7 @@ const Header: React.FC = () => {
                 </div>
             </div>
             <div onClick={handleOpenMenu} className={`fixed top-0 left-0 bottom-0 right-0 bg-white/30 transition duration-500 ease-in-out ${!openInPc ? 'invisible opacity-0': 'visible opacity-100 h-auto'}`}></div>
-            <div className={`lg:absolute lg:left-0 lg:right-0 lg:w-full lg:top-full fixed top-0 bottom-0 right-0 w-1/2 z-10 transition duration-500 ease-in-out ${!openInPc ? 'invisible opacity-0 h-0 lg:translate-x-0 translate-x-full' : 'visible opacity-100 h-auto lg:translate-x-0 translate-x-0'}`}>
+            <div className={`lg:absolute lg:left-0 lg:right-0 lg:w-full lg:top-full fixed top-0 bottom-0 right-0 w-2/3 z-10 transition duration-500 ease-in-out ${!openInPc ? 'invisible opacity-0 h-0 lg:translate-x-0 translate-x-full' : 'visible opacity-100 h-auto lg:translate-x-0 translate-x-0'}`}>
                 <div className='md:max-w-7xl max-w-full px-3 mx-auto'>
                     <div className='lg:border-10 border-[#002466] rounded-xl shadow-lg -mx-2.5'>
                         <div className='lg:border-4 lg:border-blue-800 py-3 lg:rounded-xl bg-white flex flex-wrap text-[#000] lg:h-fit h-screen overflow-y-auto'>
