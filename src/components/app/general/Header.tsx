@@ -1,6 +1,8 @@
 // import Logo from '@/assets/images/logo.jpg'
 import { useCallback, useState } from 'react'
 import { AiFillPhone, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
+import Logo from '@/assets/images/logo.jpg'
+
 const Header: React.FC = () => {
     const [openInPc, setOpenInPc] = useState(false)
     const handleOpenMenu = useCallback(()=>{
@@ -11,8 +13,8 @@ const Header: React.FC = () => {
             <div className="mx-auto flex items-center justify-between">
                 <div className="flex items-center space-x-2">
                     <div className="flex items-center space-x-2">
-                        <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
-                            <div className="w-4 h-4 border-2 border-white rounded-full"></div>
+                        <div className="w-8 h-8 rounded-full flex items-center justify-center">
+                            <img src={Logo} alt="" />
                         </div>
                         <div>
                             <div className="font-bold text-lg">MakeWow</div>
