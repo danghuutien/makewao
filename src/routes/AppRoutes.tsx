@@ -7,6 +7,6 @@ const AppRoutes = createBrowserRouter([
         element: <Home />,
         
     },
-]);
+], { basename: "/makewao" } );
 
 export default AppRoutes
